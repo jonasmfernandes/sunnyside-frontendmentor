@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+/* font-family: 'Barlow', sans-serif; */
+/* font-family: 'Fraunces', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar {
+    background-color: #3EBFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 0 15rem;
+}
+
+.logo {
+    width: 10vw;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+li {
+    margin-right: 3rem;
+    list-style: none;
+    color: hsl(0, 0%, 91%);
+    font-family: 'Barlow', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+li:hover {
+    font-size: 1.2rem;
+    transition: 0.5s;
+    color: white;
+}
+.contact {
+    margin: 0;
+    padding: 12px 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 19, 19);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.contact:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-size: 0.9rem;
+}
+
+main {
+    background-image: url(img/desktop/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 15rem;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+}
+
+.four-images {
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.div1 {
+    background-color: azure;
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div1-content {
+    text-align: left;
+    width: 60%;
+}
+
+.subject{
+    padding: 2rem 0;
+    font-size: 1.1rem;
+    color: rgb(75, 75, 75);
+    font-family: 'Barlow', sans-serif;
+}
+.title-div-left {
+    font-size: 2.5rem;
+    font-family: 'Fraunces', serif;
+    padding: 0;
+    width: 70%;
+}
+
+.div2{
+    background-image: url(img/desktop/image-transform.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 50%;
+}
+
+.div3 {
+    background-image: url(img/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 50%;
+}
+.div4 {
+    
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.learn-more1 {
+    font-family: 'Fraunces', serif;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-bottom: 5px solid hsl(51, 100%, 49%);
+}
+
+.learn-more2 {
+    font-family: 'Fraunces', serif;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-bottom: 5px solid hsl(7, 99%, 70%);
+}
+
+.div5 {
+    background-image:url(img/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div6 {
+    height: 70vh;
+    width: 50%;
+    background-image: url(img/desktop/image-photography.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div6-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-div-gd {
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    color: hsl(167, 40%, 24%);
+}
+
+.title-div-p {
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    color: hsl(198, 62%, 26%);
+}
+
+.subject-p {
+    width: 40%;
+    text-align: center;
+    margin: 4rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(212, 27%, 19%);
+}
+
+.subject-gd {
+    width: 40%;
+    text-align: center;
+    margin: 4rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(212, 27%, 19%);
+}
